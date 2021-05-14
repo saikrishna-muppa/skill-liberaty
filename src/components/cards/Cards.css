@@ -1,0 +1,36 @@
+.card-img {
+    width: 30% !important;
+    border-radius: calc(0.25rem - 1px);
+    
+}
+.card-text:last-child {
+    margin-bottom: 0;
+    max-width: 60%;
+}
+.card{
+    
+    border: none !important;
+}
+.card-header{
+margin-top: 40px;
+}
+.card-img:hover{
+    overflow: hidden;
+    transform: scale(0.8);
+    transition: 0.3s ease-in-out;
+}
+h5, .h5 {
+    font-size: 1rem;
+    color: #ff8f07;
+}
+.text-muted {
+    color: black;
+    font-size: 24px;
+    line-height: 32px;
+    display: block;
+    font-weight: 600;
+}
+/* .card{
+    display: flex;
+    flex-direction: column;
+} */

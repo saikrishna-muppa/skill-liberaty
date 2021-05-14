@@ -1,0 +1,29 @@
+.blog-container{
+    display: flex;
+    margin: 100px;
+    
+}
+.blog-text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}.blog-text > h4{
+    max-width: 75%;
+}
+.blog-text > h3{
+    font-size: 45px;
+    line-height: 55px;
+    font-weight: 500;
+}
+.blog-text > .banner-btn-parimary{
+    width: 80%;
+    padding-left: 32%;
+    padding-right: 30%;
+}
+.blog-input{
+    width: 80%;
+    margin-top: 20px;
+    padding: 1% 25% 2% 30%;
+    margin-bottom: 20px ;
+    border-radius: 5px;
+}

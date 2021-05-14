@@ -1,0 +1,40 @@
+.score-header{
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+}
+.score-container{
+    background-size: cover;
+    background-image: linear-gradient(to right, #000000, rgba(0, 0, 0, 0.08)), url(../../images/img-3.png);
+    background-repeat: no-repeat, no-repeat, no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    display: grid;
+    align-items: center;
+    padding: 6rem 0;
+    margin:auto;
+    padding: 50px 0px;
+    background-color: rgba(0, 0, 0, 0.6);
+}
+.icons > svg {
+    overflow: hidden;
+    vertical-align: middle;
+    color: #ff8f07;
+    font-size: 30px;
+}
+.score-digits{
+    font-size: 50px;
+    line-height: 60px;
+    font-weight: 700;
+    color: #fff;
+    margin-top: 20px;
+    margin-bottom: 0;
+}
+.score-text{
+    font-size: 18px;
+    line-height: 24px;
+    text-transform: capitalize;
+    color: #eee;
+    margin-top: 10px;
+    font-weight: bold;
+}

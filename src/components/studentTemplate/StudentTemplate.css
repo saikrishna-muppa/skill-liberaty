@@ -1,0 +1,27 @@
+ .new-block {
+    background-size: cover;
+    background-image: linear-gradient(to right, #000000, rgba(0, 0, 0, 0.08)), url(../../images/img-1.png);
+    background-repeat: no-repeat, no-repeat, no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    display: grid;
+    align-items: center;
+    padding: 6rem 0;
+}
+.middle-section {
+    max-width: 580px;
+}
+
+.middle-section h2 {
+    color: #ffffff;
+    font-size: 36px;
+    line-height: 48px;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+.link-list-menu p {
+    font-size: 18px;
+    color: #eee;
+    line-height: 28px;
+    padding-top: 25px;
+}

@@ -1,0 +1,74 @@
+.banner-container{
+    background: rgba(254, 146, 64, 0.05);
+    
+   
+}
+.banner-view{
+    /* margin: auto; */
+    margin: 180px;
+    
+}
+.banner{
+    background: url(../../images/banner.png) no-repeat right;
+    background-size: contain;
+    min-height: 700px;
+    position: relative;
+    z-index: 0;
+    display: grid;
+    align-items: center;
+    margin-right:10px;
+}
+.text-banner{
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 75px;
+}
+.banner-para{
+    font-size: 18px;
+    color: black !important;
+    display: inline-block;
+    line-height: 28px;
+    max-width: 650px;
+}
+
+.banner-btn-parimary{
+    background-color: #ff8f07;
+    color: black;
+    transition: 0.3s ease-out;
+    display: inline-block;
+    line-height: 52px;
+    font-weight: 700;
+    font-size: 14px;
+    margin: 0px;
+    padding: 0px 30px;
+    text-transform: uppercase;
+    text-decoration: none !important;
+    border-radius: 5px;
+}
+.banner-btn-parimary:hover{
+    color: white !important;
+}
+.banner-btn{
+    border: 1px solid #ff8f07;
+    color: #ff8f07;
+    transition: 0.3s ease-out;
+    display: inline-block;
+    line-height: 52px;
+    font-weight: 700;
+    font-size: 14px;
+    margin-left: 10px;
+    padding: 0px 30px;
+    text-transform: uppercase;
+    text-decoration: none !important;
+    border-radius: 5px;
+}
+.banner-btn:hover{
+    color: black !important;
+    background-color: #ff8f07;
+    border-color: #ff8f07;
+
+}
+/* .banner:before{
+
+
+} */

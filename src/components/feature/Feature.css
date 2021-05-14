@@ -1,0 +1,75 @@
+.feature-container{
+    margin: 50px;
+}
+.feature-header{
+    text-align: center;
+}
+.feature-header > h3{
+    color: black;
+    font-size: 45px;
+    line-height: 55px;
+    font-weight: 600;
+}
+.feature-text{
+    
+        margin-top: 0;
+        margin-bottom: 1rem;
+         color: #5a5a5a;
+        font-size: 22px;
+        line-height: 34px;
+        font-weight: 600;
+        margin-left: auto;
+        margin-right: auto;
+        max-width: 60%;
+}
+
+/* here on wards feature cards css start */
+.card-head-container{
+    /* margin-left: 20% !important;    */
+}
+.card-img-top{
+    max-width: 30%;
+    border-radius: 50% !important;
+}
+li::marker{
+    color: #f00;
+}
+.learn{
+    transition: 0.3s ease-out;
+    display: inline-block;
+    line-height: 52px;
+    font-weight: 600 !important;
+    font-size: 10px;
+    margin: 0px;
+    padding: 0px 30px;
+    text-transform: uppercase;
+}
+.btn-secondary{
+    border: none;
+    
+    padding: 12px 26px 16px 22px !important;
+
+}
+.btn-secondary:focus, .btn-secondary.focus {
+    box-shadow: 0 0 0 0.2rem #ff9800;
+}
+.card-deck{
+    width: 50% !important;
+    float: left;
+    /* margin-left: 10px !important; */
+  
+}
+div.card{
+    background-color: #f0f8ffb3;
+    margin-top: 15px;
+}
+div.card-deck{
+    /* border: 1px solid ; */
+    margin: 0px ;
+}
+.card-head-container{
+    max-width: 50%;
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+}

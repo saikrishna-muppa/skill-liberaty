@@ -1,0 +1,89 @@
+import React from "react";
+import joincommunity from '../../images/img-1.png'
+import learning from '../../images/img-2.png'
+import job from '../../images/img-3.png'
+import community from '../../images/img-4.png'
+import '../cards/Cards.css'
+const Cards = () => {
+  return (
+    // <div className="card-header">
+    //   <div className="card-row">
+    //     <div className="card-col">
+    //       <div className="card-details">
+    //         <a href="#">
+              
+    //           <img src={joincommunity} alt="" className="card-img" />{" "}
+    //         </a>
+    //         <div className="card-blog-info">
+    //           <p className="date">Step 01</p>
+    //           <h4>community</h4>
+    //           <p class="card-blog-text">
+    //             Lorem ipsum dolor sit, icing elit. Nemo veritatis omnis quae
+    //             quaerat totam culpa odit repellendus reiciendis, aliquid vero,
+    //             necessitatibus aliquid iure illum quis maxime ducimus veritatis
+    //             enim.
+    //           </p>
+    //         </div>
+    //       </div>
+    //     </div>
+    //   </div>
+    // </div>
+  );
+};
+
+export default Cards;
+
+
+
+
+
+
+
+
+
+ 
+     <div className="card-header"> 
+<div className="card">  
+      <Card >
+        <CardImg  src={joincommunity}  alt="Card image cap" />
+        <CardBody className="card-details">
+            <div >
+          <CardTitle tag="h5">Step 01</CardTitle>
+          <CardSubtitle tag="h6" className="mb-2 text-muted">Join Community</CardSubtitle>
+          <CardText>This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</CardText>
+          </div>
+           </CardBody>
+      </Card>
+      </div>
+      <div className="card">  
+      <Card >
+        <CardImg  src={learning} alt="Card image cap" />
+        <CardBody>
+          <CardTitle tag="h5">Step 02</CardTitle>
+          <CardSubtitle tag="h6" className="mb-2 text-muted">Learning</CardSubtitle>
+          <CardText>This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</CardText>
+           </CardBody>
+      </Card>
+      </div>
+      <div className="card">  
+      <Card >
+        <CardImg  src={job} alt="Card image cap" />
+        <CardBody>
+          <CardTitle tag="h5">Step 03</CardTitle>
+          <CardSubtitle tag="h6" className="mb-2 text-muted">Get the Best Job</CardSubtitle>
+          <CardText>This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</CardText>
+           </CardBody>
+      </Card>
+      </div>
+      <div className="card">  
+      <Card >
+        <CardImg  src={community} alt="Card image cap" />
+        <CardBody>
+          <CardTitle tag="h5">Step 04</CardTitle>
+          <CardSubtitle tag="h6" className="mb-2 text-muted">Community</CardSubtitle>
+          <CardText>This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</CardText>
+           </CardBody>
+      </Card>
+      </div>
+        
+      </div>
