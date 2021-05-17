@@ -87,8 +87,8 @@
         
     }
     .banner {
-        background-size: cover;
-        background-image: linear-gradient(to right, #fe92400d,  #f8f9fa), url(/static/media/banner.dcbddcc4.png);
+        background-size: contain;
+        background-image: linear-gradient(to right, #fe92400d, #2125293b), url(/static/media/banner.dcbddcc4.png);
         background-repeat: no-repeat, no-repeat, no-repeat;
         /* background-position: right; */
         /* background-attachment: fixed; */
@@ -99,5 +99,9 @@
         margin: auto;
         padding: 70px 0px;
     }
-    
+    .text-banner {
+        font-weight: 600;
+        font-size: 25px;
+        line-height: 30px;
+    }
 }

@@ -17,7 +17,7 @@ import NewSlider from '../slider/NewSlider'
 const Homepage = () => {
   return (
     <div>
-   <Navigation/>
+   {/* <Navigation/> */}
    <Banner/>
    <CommunityModal/>
    <Cards/>
