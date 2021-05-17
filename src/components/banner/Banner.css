@@ -68,7 +68,14 @@
     border-color: #ff8f07;
 
 }
-/* .banner:before{
-
-
-} */
+@media (max-width:450px) {
+    .banner-view{
+        margin: auto;
+        /* margin: 180px; */
+        
+    }
+    .banner{
+        max-width: -webkit-fill-available;
+    }
+    
+}

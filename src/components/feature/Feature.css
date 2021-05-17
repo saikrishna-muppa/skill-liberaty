@@ -73,3 +73,13 @@ div.card-deck{
     flex-wrap: wrap;
     margin: auto;
 }
+
+
+@media (max-width:450px) {
+    .card-head-container {
+        max-width: -webkit-fill-available;
+    }   
+    li{
+        color: black;
+    } 
+}

@@ -30,7 +30,18 @@ h5, .h5 {
     display: block;
     font-weight: 600;
 }
+.card-text{
+    color: black;
+    text-align: left;
+}
+
 /* .card{
     display: flex;
     flex-direction: column;
 } */
+@media (max-width:450px) {
+    .card{
+        flex-direction: column !important;
+    }
+    
+}

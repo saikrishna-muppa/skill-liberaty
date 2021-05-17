@@ -10,12 +10,14 @@ import FeatureCard from '../feature/FeatureCard'
 import Navigation from '../navvigation/Navigation'
 import ScoreBlock from '../scoreBlock/ScoreBlock'
 import StudentTemplate from '../studentTemplate/StudnetTemplate'
+import Footer from '../footer/Footer'
+import NewSlider from '../slider/NewSlider'
 
 
 const Homepage = () => {
   return (
     <div>
-   <Navigation/>
+   {/* <Navigation/> */}
    <Banner/>
    <CommunityModal/>
    <Cards/>
@@ -24,8 +26,10 @@ const Homepage = () => {
    <FeatureCard/>
    <StudentTemplate/>
    <Slider/>
+   {/* <NewSlider/> */}
    {/* <Faq/> */}
    <Blog/>
+   <Footer/>
     </div>
   )
 }
