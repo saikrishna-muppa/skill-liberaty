@@ -54,4 +54,7 @@
         border-style: none;
         max-width: -webkit-fill-available;
     }
+    .blog-input{
+        padding: 2% 8% 2% 24%;
+    }
 }

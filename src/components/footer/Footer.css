@@ -51,6 +51,7 @@
 .card-text:last-child {
     margin-top: auto !important;
     margin-bottom: auto !important;
+    
 }
 .recent-post-card>img{
     max-width: 26%;
@@ -84,6 +85,9 @@ div >p {
 .social-icons {
  
     justify-content: space-evenly;
+}
+.footer-header{
+    max-width: 100%;
 }
     
 }
