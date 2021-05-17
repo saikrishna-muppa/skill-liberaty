@@ -3,16 +3,19 @@
     border-radius: calc(0.25rem - 1px);
     
 }
-.card-text:last-child {
+/* .card-text:last-child {
     margin-bottom: 0;
     max-width: 60%;
-}
+} */
 .card{
     
     border: none !important;
 }
 .card-header{
 margin-top: 40px;
+margin-left: auto;
+margin-right: auto;
+max-width: 50%;
 }
 .card-img:hover{
     overflow: hidden;

@@ -1,0 +1,13 @@
+.faq-header{
+    display: flex;
+}
+.faq-container {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 60%;
+}
+.ant-collapse{
+    margin-left: auto;
+    margin-right: auto;
+    /* max-width: 60% ; */
+}
