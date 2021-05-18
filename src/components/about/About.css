@@ -1,0 +1,46 @@
+.about-container{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 60px;
+    max-width: 80%;
+    display: flex;
+    justify-content: space-around;
+}
+.about-header{
+    display: flex;
+    flex-wrap: wrap;
+}
+.about-header >h3{
+    max-width: 80%;
+}
+.ant-card.ant-card-bordered.about-card {
+    margin: 1px;
+}
+
+
+img.about-avatar {
+    border-radius: 50%;
+    width: 30%;
+    height: 100px;
+    margin-left: 20px;
+    margin-top: 5px;
+}
+.ant-card-meta-title {
+    font-weight: bold;
+    font-size: 20px;
+}
+.ant-card-meta-title:hover{
+    color: #ba3833;
+    transition: 0.3s ease-in;
+}
+.ant-card-meta-description{
+font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    color: #5a5a5a;
+}
+.about-cards-text{
+    text-align: center;
+    margin-top: 15px;
+}

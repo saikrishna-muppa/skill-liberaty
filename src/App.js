@@ -2,7 +2,17 @@ import React, { Component } from "react";
 import NavBar from "./components/navbar";
 import Counters from "./components/counters";
 import Homepage from "./components/Homepage/Homepage";
-
+import CourseCards  from "./components/course/cards/CourseCards";
+import Navigation from "./components/navvigation/Navigation";
+import About from "./components/about/About";
+import {
+  BrowserRouter ,
+  Switch,
+  Route,
+  Link,
+  useRouteMatch,
+  useParams
+} from "react-router-dom";
 class App extends Component {
   state = {
     counters: [
@@ -48,24 +58,20 @@ class App extends Component {
 
   render() {
     return (
-      <div>
-        <Homepage/>
+      <BrowserRouter>
+      <Navigation />
+      <div >
+        <Switch>
+          <Route exact path="/">
+            <Homepage />
+          </Route>
+          <Route path="/about">
+            <About />
+          </Route>
+          
+        </Switch>
       </div>
-      // <div>
-      //   <NavBar
-      //     totalCounters={this.state.counters.filter(c => c.value > 0).length}
-      //   />
-      //   <main className="container">
-      //     <Counters
-      //       counters={this.state.counters}
-      //       onReset={this.handleReset}
-      //       onIncrement={this.handleIncrement}
-      //       onDecrement={this.handleDecrement}
-      //       onDelete={this.handleDelete}
-      //       onRestart={this.handleRestart}
-      //     />
-      //   </main>
-      // </div>
+    </BrowserRouter>
     );
   }
 }

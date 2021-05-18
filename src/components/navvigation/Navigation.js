@@ -18,17 +18,17 @@ const Navigation=(props)=> {
           <Collapse isOpen={collapsed} navbar className="nav-collapse">
             <Nav navbar>
               <NavItem >
-                <NavLink href="/components/" active >HOME</NavLink>
+                <NavLink href="/" active >HOME</NavLink>
               </NavItem>
               
               <NavItem>
-                <NavLink href="/components/">ABOUT</NavLink>
+                <NavLink href="/about">ABOUT</NavLink>
               </NavItem>
               <NavItem>
-                <NavLink href="/components/">SERVICES</NavLink>
+                <NavLink href="/service">SERVICES</NavLink>
               </NavItem>
               <NavItem>
-                <NavLink href="/components/">COURSES</NavLink>
+                <NavLink href="/courses">COURSES</NavLink>
               </NavItem>
               <UncontrolledDropdown nav inNavbar>
               <DropdownToggle nav caret>
