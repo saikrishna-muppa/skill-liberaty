@@ -13,6 +13,7 @@ import {
   useRouteMatch,
   useParams
 } from "react-router-dom";
+import Footer from './components/footer/Footer'
 class App extends Component {
   state = {
     counters: [
@@ -68,9 +69,13 @@ class App extends Component {
           <Route path="/about">
             <About />
           </Route>
+          <Route path="/courses">
+            <CourseCards />
+          </Route>
           
         </Switch>
       </div>
+      <Footer/>
     </BrowserRouter>
     );
   }

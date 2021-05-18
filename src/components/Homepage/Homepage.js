@@ -29,7 +29,7 @@ const Homepage = () => {
    {/* <NewSlider/> */}
    <Faq/>
    <Blog/>
-   <Footer/>
+  
     </div>
   )
 }
