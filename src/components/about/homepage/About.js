@@ -1,8 +1,12 @@
 import React from "react";
 import { Card, Avatar } from "antd";
-import "../about/About.css";
-import ScoreBlock from "../scoreBlock/ScoreBlock";
-import CourseCards from "../course/cards/CourseCards";
+import '../homepage/About.css'
+import ScoreBlock from "../../scoreBlock/ScoreBlock";
+import CourseCards from "../../course/cards/CourseCards";
+
+import { Pagination } from 'antd';
+import ContactUs from "../contactUs/ContactUs";
+import TeachersCards from "../teachersCards/TeachersCards";
 const { Meta } = Card;
 const About = () => {
   return (
@@ -74,14 +78,18 @@ const About = () => {
             description="consectetur adipisicing elit, sed do eiusmod tempor"
           />
         </Card>
+        
         </div>
         <div>
-        <img alt="example" src="https://os.alipayobjects.com/rmsportal/QBnOOoLaAfKPirc.png" />
+        <img className="about-side-image" alt="example" src="https://os.alipayobjects.com/rmsportal/QBnOOoLaAfKPirc.png" />
         </div>
         </div>
         <ScoreBlock/>
         <h2 className="about-cards-text">Various courses to choose from</h2>
         <CourseCards/>
+        <Pagination  defaultCurrent={1} total={50}  />
+        <ContactUs/>
+        <TeachersCards/>
     </div>
   );
 };

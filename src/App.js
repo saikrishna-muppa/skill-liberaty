@@ -4,7 +4,7 @@ import Counters from "./components/counters";
 import Homepage from "./components/Homepage/Homepage";
 import CourseCards  from "./components/course/cards/CourseCards";
 import Navigation from "./components/navvigation/Navigation";
-import About from "./components/about/About";
+import About from "./components/about/homepage/About";
 import {
   BrowserRouter ,
   Switch,

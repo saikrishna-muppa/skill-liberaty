@@ -40,7 +40,18 @@ font-style: normal;
     line-height: 24px;
     color: #5a5a5a;
 }
+
+.about-side-image{
+    max-height: 80%;
+}
 .about-cards-text{
     text-align: center;
-    margin-top: 15px;
+    margin-top: 50px;
+    font-size: 45px;
+    line-height: 55px;
+    font-weight: 500;
+}
+
+.ant-pagination {
+text-align: center;
 }

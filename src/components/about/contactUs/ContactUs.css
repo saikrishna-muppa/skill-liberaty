@@ -1,0 +1,17 @@
+.new-block {
+    background-size: cover;
+    background-image: linear-gradient(to right, #000000, rgba(0, 0, 0, 0.08)), url(/static/media/img-1.220be1b4.png);
+    background-repeat: no-repeat, no-repeat, no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    display: grid;
+    -webkit-align-items: center;
+    align-items: center;
+    padding: 12rem 0;
+}
+.middle-section {
+    max-width: 850px;
+}
+.link-list-menu{
+    text-align: center;
+}
