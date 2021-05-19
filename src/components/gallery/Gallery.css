@@ -41,3 +41,15 @@
 .content-details>h4{
     color: white;
 }
+@media (max-width:450px) {
+    .gallery-container{
+        flex-direction: column;
+    }
+    .gallery-header {
+        max-width: fit-content;
+    }
+.gallery-header >img {
+    height: 50vh;
+    max-width: fit-content;
+}
+}
