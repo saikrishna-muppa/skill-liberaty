@@ -35,7 +35,9 @@ const Navigation=(props)=> {
                 PAGES
               </DropdownToggle>
               <DropdownMenu right>
-                <DropdownItem>
+                
+                <DropdownItem href="/gallery">
+                  
                   Gallery
                 </DropdownItem>
                 <DropdownItem>

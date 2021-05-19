@@ -15,6 +15,7 @@ import {
 } from "react-router-dom";
 import Footer from './components/footer/Footer'
 import ServiceBlog from "./components/service/serviceBlog/ServiceBlog";
+import Gallery from "./components/gallery/Gallery";
 class App extends Component {
   state = {
     counters: [
@@ -75,6 +76,9 @@ class App extends Component {
           </Route>
           <Route path="/service">
             <ServiceBlog/>
+          </Route>
+          <Route path="/gallery">
+            <Gallery/>
           </Route>
           
         </Switch>
