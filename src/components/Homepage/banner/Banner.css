@@ -18,7 +18,7 @@
     align-items: center;
     margin-right:10px; */
        /* background-size: cover; */
-            background-image: linear-gradient(to right, #fe92400d, rgba(0, 0, 0, 0.08)), url(../../images/banner.png) ;
+            background-image: linear-gradient(to right, #fe92400d, rgba(0, 0, 0, 0.08)), url(../../../images/banner.png) ;
             background-repeat: no-repeat, no-repeat, no-repeat;
             background-position: right;
             /* background-attachment: fixed; */

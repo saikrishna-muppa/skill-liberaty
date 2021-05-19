@@ -1,6 +1,6 @@
  .new-block {
     background-size: cover;
-    background-image: linear-gradient(to right, #000000, rgba(0, 0, 0, 0.08)), url(../../images/img-1.png);
+    background-image: linear-gradient(to right, #000000, rgba(0, 0, 0, 0.08)), url(../../../images/img-1.png);
     background-repeat: no-repeat, no-repeat, no-repeat;
     background-position: center;
     background-attachment: fixed;

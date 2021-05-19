@@ -1,5 +1,5 @@
 import React from 'react'
-import "../studentTemplate/StudentTemplate.css"
+import "./StudentTemplate.css"
 const StudentTemplate = () => {
   return (
     <div class="new-block top-bottom">

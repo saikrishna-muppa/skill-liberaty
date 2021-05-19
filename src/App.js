@@ -14,6 +14,7 @@ import {
   useParams
 } from "react-router-dom";
 import Footer from './components/footer/Footer'
+import ServiceBlog from "./components/service/serviceBlog/ServiceBlog";
 class App extends Component {
   state = {
     counters: [
@@ -71,6 +72,9 @@ class App extends Component {
           </Route>
           <Route path="/courses">
             <CourseCards />
+          </Route>
+          <Route path="/service">
+            <ServiceBlog/>
           </Route>
           
         </Switch>

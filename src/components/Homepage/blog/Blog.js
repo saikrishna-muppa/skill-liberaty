@@ -1,6 +1,6 @@
 import React from 'react'
-import '../blog/Blog.css'
-import banner from '../../images/banner.png'
+import './Blog.css'
+import banner from '../../../images/banner.png'
 const Blog = () => {
   return (
     <div className="blog-container">

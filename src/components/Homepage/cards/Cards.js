@@ -3,11 +3,11 @@ import {
   Card, Button, CardImg, CardTitle, CardText, CardGroup,
   CardSubtitle, CardBody
 } from 'reactstrap';
-import joincommunity from '../../images/img-1.png'
-import learning from '../../images/img-2.png'
-import job from '../../images/img-3.png'
-import community from '../../images/img-4.png'
-import '../cards/Cards.css'
+import joincommunity from '../../../images/img-1.png'
+import learning from '../../../images/img-2.png'
+import job from '../../../images/img-3.png'
+import community from '../../../images/img-4.png'
+import './Cards.css'
 const Cards = (props) => {
   return (
       

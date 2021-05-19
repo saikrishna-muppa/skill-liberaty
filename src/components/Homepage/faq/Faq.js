@@ -1,5 +1,5 @@
 import React from 'react'
-import '../faq/Faq.css'
+import './Faq.css'
 import { Tabs, Radio,Collapse } from 'antd';
 import 'antd/dist/antd.css';
 const { TabPane } = Tabs;

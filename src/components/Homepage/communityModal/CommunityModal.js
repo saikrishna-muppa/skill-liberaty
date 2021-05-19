@@ -1,5 +1,5 @@
 import React from 'react'
-import "../communityModal/CommunityModal.css"
+import "./CommunityModal.css"
 const CommunityModal = () => {
   return (
     <div className="modal-container">

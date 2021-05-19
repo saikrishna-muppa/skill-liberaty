@@ -24,12 +24,13 @@
 }
 
 /* here on wards feature cards css start */
-.card-head-container{
-    /* margin-left: 20% !important;    */
-}
+/* .card-head-container{
+    margin-left: 20% !important;   
+} */
 .card-img-top{
     max-width: 30%;
     border-radius: 50% !important;
+    border: 3px solid orange;
 }
 li::marker{
     color: #f00;

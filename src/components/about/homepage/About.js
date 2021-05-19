@@ -1,7 +1,7 @@
 import React from "react";
 import { Card, Avatar } from "antd";
 import "../homepage/About.css";
-import ScoreBlock from "../../scoreBlock/ScoreBlock";
+import ScoreBlock from "../../Homepage/scoreBlock/ScoreBlock";
 import CourseCards from "../../course/cards/CourseCards";
 
 import { Pagination } from "antd";
