@@ -46,3 +46,16 @@
         margin-top: -9%;
         text-align: center;
 }
+
+@media (max-width:450px) {
+    .student-card-container{
+        max-width: 100%;
+    }
+    .student-card {
+        width: 100%;
+    }
+    .student-card >h4 {
+       
+        margin-left: 40%;
+    }
+}

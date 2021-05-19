@@ -59,6 +59,9 @@ text-align: center;
 .about-score-block>.score-container {
 padding-top: 110px;
 }
+.contactus{
+    padding-top: 25px;
+}
 .teacherscards{
     padding-top: 25px;
 }
@@ -110,4 +113,28 @@ padding-top: 110px;
 .btn-join-about:hover{
     background-color: #ba3833;
     color: white;
+}
+
+@media (max-width:450px) {
+    .about-container {
+       
+        flex-direction: column;
+    }
+    .about-side-image {
+        max-width: -webkit-fill-available;
+    }
+    .score-container {
+        background-size: contain;
+        background-image: linear-gradient(to right, #000000, rgba(0, 0, 0, 0.08)), url(/static/media/img-3.7e464e09.png);
+        background-repeat: no-repeat, no-repeat, no-repeat;
+        background-position: center;
+        /* background-attachment: fixed; */
+        display: grid;
+        -webkit-align-items: center;
+        align-items: center;
+        padding: 6rem 0;
+        margin: auto;
+        padding: 70px 0px;
+        background-color: rgba(0, 0, 0, 0.6);
+    }
 }
