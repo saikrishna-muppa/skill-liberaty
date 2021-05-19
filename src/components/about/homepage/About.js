@@ -9,6 +9,8 @@ import ContactUs from "../contactUs/ContactUs";
 import TeachersCards from "../teachersCards/TeachersCards";
 const { Meta } = Card;
 const About = () => {
+
+
   return (
       <div>
     <div className="about-container">
@@ -84,12 +86,27 @@ const About = () => {
         <img className="about-side-image" alt="example" src="https://os.alipayobjects.com/rmsportal/QBnOOoLaAfKPirc.png" />
         </div>
         </div>
+        <div className="about-score-block">
         <ScoreBlock/>
+        </div>
         <h2 className="about-cards-text">Various courses to choose from</h2>
         <CourseCards/>
-        <Pagination  defaultCurrent={1} total={50}  />
+        
         <ContactUs/>
-        <TeachersCards/>
+<div className="teacherscards">   
+       <TeachersCards />
+</div>
+
+  <div className="about-join">
+    <h3>Want to Join?</h3>
+    <p>Lorem ipsum dolor sit amet elit. Nisi facere reprehenderit!</p>
+    <div class="link-list-menu">
+           
+            <a href="about.html" class="btn-join-about-primary">Become Teacher </a>
+            <a href="about.html" class="btn-join-about">Become Teacher </a>
+        </div>
+  </div>
+
     </div>
   );
 };

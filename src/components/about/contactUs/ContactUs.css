@@ -15,3 +15,7 @@
 .link-list-menu{
     text-align: center;
 }
+.btn-outline-light {
+    padding: 20px 25px !important;
+    /* text-decoration: none; */
+}

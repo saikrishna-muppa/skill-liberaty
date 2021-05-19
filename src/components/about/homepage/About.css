@@ -55,3 +55,59 @@ font-style: normal;
 .ant-pagination {
 text-align: center;
 }
+
+.about-score-block>.score-container {
+padding-top: 110px;
+}
+.teacherscards{
+    padding-top: 25px;
+}
+
+.btn-join-about-primary{
+    background-color: #ff8f07;
+    color: black;
+    transition: 0.3s ease-out;
+    display: inline-block;
+    line-height: 52px;
+    font-weight: 700;
+    font-size: 14px;
+    margin: 0px;
+    padding: 0px 30px;
+    text-transform: uppercase;
+    text-decoration: none !important;
+    border-radius: 5px; 
+}
+.about-join{
+    padding-top: 25px;
+}
+.about-join >h3{
+    text-align: center;
+    font-weight: 700;
+    font-size: 2rem;
+}
+.about-join >p{
+    color: black;
+    text-align: center;
+}
+.btn-join-about-primary:hover{
+    color: white;
+}
+.btn-join-about{
+   
+    color: #ba3833;
+    border: 1px solid #ba3833 !important;
+    text-decoration: none !important;
+    transition: 0.3s ease-out;
+    display: inline-block;
+    line-height: 52px;
+    font-weight: 700;
+    font-size: 14px;
+    margin: 5px;
+    padding: 0px 30px;
+    text-transform: uppercase;
+    border-radius: 5px; 
+}
+.btn-join-about:hover{
+    background-color: #ba3833;
+    color: white;
+}
