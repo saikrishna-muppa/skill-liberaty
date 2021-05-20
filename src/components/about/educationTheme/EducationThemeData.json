@@ -1,18 +1,18 @@
 [
     {
-        "image":"",
+        "icon":"FaRegSmile",
         "title":"Group Seminars",
         "descrption":"consectetur adipisicing elit, sed do eiusmod tempor"
     },{
-        "image":"",
+        "icon":"FaGraduationCap",
         "title":"Trending Courses",
         "descrption":"consectetur adipisicing elit, sed do eiusmod tempor"
     },{
-        "image":"",
+        "icon":"GiBackwardTime",
         "title":"Large Library",
         "descrption":"consectetur adipisicing elit, sed do eiusmod tempor"
     },{
-        "image":"",
+        "icon":"HiUserGroup",
         "title":"Expert Teachers",
         "descrption":"consectetur adipisicing elit, sed do eiusmod tempor"
     }

@@ -19,22 +19,25 @@
     /* padding: 2rem; */
     margin: 2px;
     background-color: #fff;
-    /* border: 1px solid #eeeeee; */
-    border-radius: var(--card-curve);
-    background: var(--light-bg-color);
+
     transition: 0.3s ease-in;
 }
-.education-theme-image-background{
-    height: 100px;
+.education-theme-header>h4{
+    font-size: 34px;
+    line-height: 40px;
+    font-weight: 600;
+    max-width: 555px;
+    margin-bottom: 20px;
+    /* height: 100px;
     width: 30%;
     border-radius: 50%;
-    background: #d9d9d9; 
+    background: #d9d9d9;  */
 }
-.education-theme-body-image{
-    height: 100px;
-    width: 100%;
-    border-radius: 50%;
-    border: 1px solid orange;
+
+.education-theme-image-background>svg{
+    color: orange;
+    font-size: 38px;
+    margin-bottom: 20px;
 }
 .education-theme-title{
     color: black;
@@ -53,4 +56,15 @@
 a.education-theme-title:hover{
     color:#dc3545 ;
     text-decoration: none;
+}
+
+@media (max-width:450px) {
+    .education-theme-container {
+      
+        flex-direction: column;
+    }
+    .education-theme-side-image {
+        /* max-height: 70%; */
+        max-width: -webkit-fill-available;
+    }
 }

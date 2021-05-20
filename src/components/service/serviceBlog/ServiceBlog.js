@@ -21,6 +21,8 @@ Having fun while learning is possible</h3>
            </div>
            </div>
            <AboutList/>
+           <div className="featureservice-text"><h2>Featured Services</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p></div>
            <FeaturedServices/>
         </div>
     )

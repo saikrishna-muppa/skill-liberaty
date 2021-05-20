@@ -52,7 +52,12 @@ div > svg {
 .about-list-para {
  color: white;
 }
-
+.about-list-icon>svg{
+  font-size: 30px;
+}
+.about-list-icon>svg:hover{
+  color: orange;
+}
 @media (max-width:450px) {
   .about-list{
     flex-direction: column;

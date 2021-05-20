@@ -24,6 +24,14 @@
     border-radius: 50%;
     background: #d9d9d9; 
 }
+.feature-service-image-background>svg{
+    color: orange;
+    font-size: 35px;
+    margin-top: 30px;
+    margin-left: 31px;
+}
+
+
 .feature-service-body-image{
     height: 100px;
     width: 100%;
@@ -50,5 +58,7 @@
         max-width: fit-content;
         height: fit-content;
     }
-    
-}
+    .feature-service-image-background>svg {
+      
+        margin-left: 14px;
+}}
