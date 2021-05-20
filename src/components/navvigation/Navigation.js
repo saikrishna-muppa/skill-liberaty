@@ -22,7 +22,7 @@ const Navigation=(props)=> {
               </NavItem>
               
               <NavItem>
-                <NavLink href="/about">ABOUT</NavLink>
+                <NavLink href="/about"  >ABOUT</NavLink>
               </NavItem>
               <NavItem>
                 <NavLink href="/service">SERVICES</NavLink>
@@ -40,10 +40,10 @@ const Navigation=(props)=> {
                   
                   Gallery
                 </DropdownItem>
-                <DropdownItem>
+                <DropdownItem  href="/login">
                   Login
                 </DropdownItem>
-                <DropdownItem>
+                <DropdownItem href="/signup">
                   Signup
                 </DropdownItem>
                 <DropdownItem>

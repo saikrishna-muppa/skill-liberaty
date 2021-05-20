@@ -16,6 +16,8 @@ import {
 import Footer from './components/footer/Footer'
 import ServiceBlog from "./components/service/serviceBlog/ServiceBlog";
 import Gallery from "./components/gallery/Gallery";
+import Signup from "./components/pages/Signup";
+import Login from "./components/pages/Login";
 class App extends Component {
   state = {
     counters: [
@@ -63,8 +65,14 @@ class App extends Component {
     return (
       <BrowserRouter>
       <Navigation />
-      <div >
+     
         <Switch>
+        <Route  path="/login">
+            <Login/>
+          </Route>
+          <Route path="/signup">
+            <Signup/>
+          </Route> 
           <Route exact path="/">
             <Homepage />
           </Route>
@@ -82,8 +90,7 @@ class App extends Component {
           </Route>
           
         </Switch>
-      </div>
-      <Footer/>
+         <Footer/>
     </BrowserRouter>
     );
   }
