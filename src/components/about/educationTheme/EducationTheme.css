@@ -1,0 +1,56 @@
+.education-theme-container{
+    display: flex;
+    
+    margin-left: auto;
+    /* margin-right: auto; */
+    max-width: 80%; 
+    margin-top:50px
+}
+.education-theme-header{
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 80%;
+}
+.education-theme-body{
+    max-width: 45%;
+    /* height: 62vh; */
+    /* padding: 2rem; */
+    margin: 2px;
+    background-color: #fff;
+    /* border: 1px solid #eeeeee; */
+    border-radius: var(--card-curve);
+    background: var(--light-bg-color);
+    transition: 0.3s ease-in;
+}
+.education-theme-image-background{
+    height: 100px;
+    width: 30%;
+    border-radius: 50%;
+    background: #d9d9d9; 
+}
+.education-theme-body-image{
+    height: 100px;
+    width: 100%;
+    border-radius: 50%;
+    border: 1px solid orange;
+}
+.education-theme-title{
+    color: black;
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 30px;
+    transition: 0.3s ease-in;
+}
+.education-theme-para{
+    color: black;
+    text-align: left;
+}
+.education-theme-side-image{
+    max-height:70%;
+}
+a.education-theme-title:hover{
+    color:#dc3545 ;
+    text-decoration: none;
+}

@@ -40,6 +40,9 @@
   background-color: white;
    color: black;
 }
+div>svg:hover{
+  color: orange;
+}
 div > svg {
   color: white;
 }
