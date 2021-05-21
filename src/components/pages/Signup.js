@@ -1,3 +1,4 @@
+import axios from "axios";
 import React, { useEffect, useState } from "react";
 import { Link, Redirect,useHistory } from "react-router-dom";
 
@@ -24,17 +25,36 @@ const Signup = (props) => {
   };
 
   const signupHandler = () => {
+
+const data=new FormData();
+data.append("email",authemail);
+data.append("password",authpassword)
+
+axios.post("http://localhost:5000/user/signup",data)  
+.then((res)=>{
+  console.log("respons regisrter",res.message)
+})
+.catch(err=>{
+  console.log(err)
+})
+
+
     let temp = users;
     temp.push({
-      userEmail: authemail,
-      password: authpassword,
-      status: false,
-    });
+      email:authemail,
+      password:authpassword
+    })
+    // temp.push({
+    //   userEmail: authemail,
+    //   password: authpassword,
+    //   status: false,
+    // });
     if (authemail === "" || authpassword === "") {
       alert("please be enter fileds corret details");
     } else {
       setUsers(temp);
-      localStorage.setItem("users", JSON.stringify(users));
+      console.log("temp",temp)
+      // localStorage.setItem("users", JSON.stringify(users));
       history.push("/login");
     }
   };
